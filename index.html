@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEROTICA MODELS | Agence de mannequins</title>
+  <meta name="description" content="HEROTICA MODELS, agence de mannequins en Haïti. Découvrez nos mannequins, notre vision et nos castings.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #080808;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 7%;
+      border-bottom: 1px solid #292929;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 7%;
+      background:
+        linear-gradient(90deg, #080808 0%, #080808dd 45%, #08080855 100%),
+        url("https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1800&q=85");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-label {
+      color: #c5a77a;
+      font-size: 11px;
+      letter-spacing: 5px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(45px, 9vw, 105px);
+      line-height: 0.95;
+      font-weight: normal;
+      letter-spacing: -3px;
+      max-width: 800px;
+    }
+
+    .hero p {
+      margin-top: 30px;
+      max-width: 450px;
+      color: #cccccc;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 16px 28px;
+      border: 1px solid #c5a77a;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 2px;
+      width: fit-content;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #c5a77a;
+      color: #080808;
+    }
+
+    .section {
+      padding: 90px 7%;
+    }
+
+    .section-label {
+      color: #c5a77a;
+      font-size: 11px;
+      letter-spacing: 4px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: clamp(32px, 5vw, 55px);
+      font-weight: normal;
+      margin-bottom: 25px;
+    }
+
+    .about {
+      max-width: 700px;
+      color: #b8b8b8;
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .casting {
+      background: #111111;
+      text-align: center;
+    }
+
+    .casting p {
+      color: #bbbbbb;
+      line-height: 1.8;
+      max-width: 550px;
+      margin: auto;
+    }
+
+    footer {
+      padding: 35px 7%;
+      border-top: 1px solid #292929;
+      color: #777777;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 20px 5%;
+      }
+
+      .logo {
+        font-size: 15px;
+        letter-spacing: 2px;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 10px;
+      }
+
+      .hero {
+        min-height: 70vh;
+        padding: 60px 6%;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+
+      .section {
+        padding: 65px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">HEROTICA MODELS</div>
+
+    <nav>
+      <a href="#agency">AGENCE</a>
+      <a href="#casting">CASTING</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-label">AGENCE DE MANNEQUINS · HAÏTI</div>
+
+      <h1>
+        L'élégance<br>
+        prend forme.
+      </h1>
+
+      <p>
+        Nous révélons les visages, les personnalités
+        et les talents qui façonnent l'avenir de la mode.
+        Découvrez l'univers de HEROTICA MODELS.
+      </p>
+
+      <a href="#casting" class="button">
+        REJOINDRE L'AGENCE
+      </a>
+    </section>
+
+    <section class="section" id="agency">
+      <div class="section-label">NOTRE IDENTITÉ</div>
+
+      <h2>Une vision.<br>Une signature.</h2>
+
+      <p class="about">
+        Fondée en Haïti le 20 novembre 2022,
+        HEROTICA MODELS est une agence de mannequins
+        dédiée à la découverte, à la formation et à la
+        promotion de nouveaux talents dans l'univers
+        de la mode et de l'image.
+        <br><br>
+        Notre ambition est de construire des parcours
+        professionnels, de valoriser les personnalités
+        et de révéler le potentiel de chaque mannequin.
+      </p>
+    </section>
+
+    <section class="section casting" id="casting">
+      <div class="section-label">NOUVEAUX TALENTS</div>
+
+      <h2>Votre prochain chapitre commence ici.</h2>
+
+      <p>
+        Vous souhaitez évoluer dans l'univers du mannequinat ?
+        Découvrez nos opportunités de casting et présentez
+        votre candidature à HEROTICA MODELS.
+      </p>
+
+      <a href="https://www.instagram.com/heroticamodels/"
+         class="button">
+        DÉCOUVRIR NOS CASTINGS
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 HEROTICA MODELS — TOUS DROITS RÉSERVÉS
+  </footer>
+
+</body>
+  </html>
+  
